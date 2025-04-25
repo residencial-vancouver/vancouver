@@ -1,0 +1,40 @@
+/* Imagens para as plantas */
+.planta-tipo01 {
+    background-image: url('../images/planta-tipo01.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.planta-tipo02 {
+    background-image: url('../images/planta-tipo02.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+/* Correção do espaço entre seções */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--white-color);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#sobre {
+    margin-top: 0;
+    padding-top: 60px;
+}
