@@ -1,0 +1,60 @@
+/* Correções adicionais de layout */
+
+/* Corrigir borda branca na direita em mobile */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ajustar margens do logo e menu */
+.navbar {
+    padding: 20px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+.menu-toggle {
+    margin-right: 20px;
+}
+
+/* Ajustes para mobile */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+    .navbar {
+        padding: 15px;
+    }
+    
+    .logo {
+        margin-left: 15px;
+    }
+    
+    .menu-toggle {
+        margin-right: 15px;
+    }
+    
+    /* Garantir que o conteúdo do hero fique acima da camada que cobre a marca d'água */
+    .hero-content {
+        position: relative;
+        z-index: 2;
+    }
+    
+    /* Garantir que os botões de CTA fiquem acima da camada que cobre a marca d'água */
+    .cta-buttons {
+        position: relative;
+        z-index: 2;
+    }
+}
